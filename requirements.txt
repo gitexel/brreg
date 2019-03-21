@@ -1,0 +1,4 @@
+gspread
+scrapy
+oauth2client
+PyOpenSSL

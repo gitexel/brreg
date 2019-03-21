@@ -1,0 +1,4 @@
+# table = response.xpath('//table[@border="0"]')[]
+        # keys = table.xpath('//tr[@bgcolor="#cccccc"]')
+        # k = [key.xpath('td//text()')[1].extract().replace('\n', '').strip() for key in keys][1:]
+        # print(k)
