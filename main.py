@@ -84,7 +84,7 @@ def start_crawling(date):
 
 if __name__ == '__main__':
     start_crawling(date=args['date'])
-    ss = GoogleSheets(cred_path='sheets.json', scope=GOOGLE_SCOPE)
+    ss = GoogleSheets(cred_path='google_secret.json', scope=GOOGLE_SCOPE)
     ss.open_spread_sheet(key="1yyoZsuu8DFfjR-G_OXAasbMiBJNAIZIHyYusPrPUImQ")
     if args['update']:
         if args['history']:
